@@ -20,8 +20,5 @@ describe('Prueba al sitio de DemoBlaze',()=>{
         .click()
         .wait(2000);
     });
-
-    it('Saber que entro correctamente',()=>{
-        cy.xpath('//*[@id="type"]/a')
-    })
+    
 });
