@@ -1,4 +1,4 @@
-import {VALID_USER, INVALID_USER} from "../../data/user";
+import {VALID_USER, INVALID_USER, VALID_USER_LOGIN, INVALID_USER_LOGIN} from "../../data/user";
 import principal from "../../page/principal";
 require('cypress-xpath');
 
@@ -34,4 +34,5 @@ describe('Prueba del registro de SISUAR',()=>{
             INVALID_USER.password
         );
     })
+
 })
